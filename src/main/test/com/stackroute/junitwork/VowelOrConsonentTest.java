@@ -38,7 +38,6 @@ public class VowelOrConsonentTest {
         String result=obj.count_Vowels("rsdf8");
         //assert
         assertEquals(result,"Error number: Please enter only alphabets");
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
 
     public void givenInputshouldNotBeAlphabet(){
@@ -46,14 +45,12 @@ public class VowelOrConsonentTest {
         String result=obj.count_Vowels("rsdf@");
         //assert
         assertEquals("Error special character: Please enter only alphabets",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
     public void givenInputHave(){
         //act
         String result=obj.count_Vowels("rsdf");
         //assert
         assertEquals("consonent consonent consonent consonent",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
 
 
@@ -63,7 +60,6 @@ public class VowelOrConsonentTest {
         String result=obj.count_Vowels("aeiou2");
         //assert
         assertEquals("Error number: Please enter only alphabets",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
 
     public void givenInputshouldNotBeAlphabetformat(){
@@ -71,14 +67,12 @@ public class VowelOrConsonentTest {
         String result=obj.count_Vowels("aeiou#");
         //assert
         assertEquals("Error special character: Please enter only alphabets",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
     public void givenInputHas(){
         //act
         String result=obj.count_Vowels("aeiou");
         //assert
         assertEquals("vowel vowel vowel vowel",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
 
     public void givenInputshouldNotBeNumbers(){
@@ -94,14 +88,12 @@ public class VowelOrConsonentTest {
         String result=obj.count_Vowels("asdf$");
         //assert
         assertEquals("Error special character: Please enter only alphabets",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
     public void givenInputIs(){
         //act
         String result=obj.count_Vowels("asdf");
         //assert
         assertEquals("vowel consonent vowel vowel consonent",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
 
 

@@ -1,3 +1,12 @@
+//7. Write a program which accepts a number as input from user and perform the following:
+//a. sort the number in non-increasing order
+//b. after sorting sum all the even numbers, the sum should be greater than 15 .
+//c. if sum is more than 15,then print output as true or false.
+//Input : 234534
+//Output : Sorted number in non-increasing order : 544332
+//Sum of even numbers : 10
+//False
+//------------------------------
 package com.stackroute.junitwork;
 
 public class SortingNumber {
@@ -6,6 +15,7 @@ public class SortingNumber {
         int sum = 0;
         String s;
         int n = array.length;
+        //sorting sum all the even numbers
         for (i = 0; i < n - 1; i++) {
             for (j = i; j < n - i - 1; j++) {
                 if (array[j] > array[j + 1]) {

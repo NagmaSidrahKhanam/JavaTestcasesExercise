@@ -36,7 +36,6 @@ public class PalindromeTest {
         String result=obj.checkpallindrome(1001);
         //assert
         assertEquals("1001 is pallindrome and sum of even numbers is less than 25",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
 
     public void givenNumerShouldReturnPalindromeIfSumOfEvenNumbersGreaterThan25(){
@@ -44,14 +43,12 @@ public class PalindromeTest {
         String result=obj.checkpallindrome(1001);
         //assert
         assertEquals("1001 is pallindrome and sum of even numbers is greater than 25",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
     public void givenNumberIsNotPalindrome(){
         //act
         String result=obj.checkpallindrome(1001);
         //assert
         assertEquals("1001 is not pallindrome",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
 
 
@@ -62,7 +59,6 @@ public class PalindromeTest {
         String result=obj.checkpallindrome(1222);
         //assert
         assertEquals("1001 is not pallindrome and sum of even numbers is less than 25",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
 
     public void givenNumerMustReturnPalindromeIfSumOfEvenNumbersGreaterThan25(){
@@ -70,14 +66,12 @@ public class PalindromeTest {
         String result=obj.checkpallindrome(1222);
         //assert
         assertEquals("1222 is not pallindrome and sum of even numbers is greater than 25",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
     public void givenNumberrIsNotPalindrome(){
         //act
         String result=obj.checkpallindrome(1222);
         //assert
         assertEquals("1222 is not pallindrome",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
 
     public void givenNumerMustbeReturnPalindromeIfSumOfEvenNumbersLessThan25(){
@@ -85,7 +79,6 @@ public class PalindromeTest {
         String result=obj.checkpallindrome(3773);
         //assert
         assertEquals("3773 is not pallindrome and sum of even numbers is less than 25",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
 
     public void givenNumerMustbeReturnPalindromeIfSumOfEvenNumbersGreaterThan25(){
@@ -93,14 +86,12 @@ public class PalindromeTest {
         String result=obj.checkpallindrome(3773);
         //assert
         assertEquals("3773 is not pallindrome and sum of even numbers is greater than 25",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
     public void givenNumbersIsNotPalindrome(){
         //act
         String result=obj.checkpallindrome(3773);
         //assert
         assertEquals("3773 is not pallindrome",result);
-//        assert("1001 is pallindrome and sum of even numbers is less than 25",result);
     }
 
 }
